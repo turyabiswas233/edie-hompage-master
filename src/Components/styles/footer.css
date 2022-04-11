@@ -1,0 +1,144 @@
+.contact {
+    background-color: #100E1D;
+}
+
+.footer-top {
+    width: 95%;
+    padding: 2.5rem 0;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: 50px repeat(3, 1fr) 50px; */
+    grid-template-columns:  25% 25% 25% ;
+    justify-content: space-around;
+}
+
+.nav_bottom nav ul {
+    list-style-type: none;
+
+}
+
+.nav_bottom nav ul li {
+    padding-top: 10pt;
+}
+
+.nav_bottom nav ul li a {
+    font-size: 1rem
+}
+
+.nav_bottom nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 180ms ease;
+}
+
+.nav_bottom nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.footer-top .edie {
+    display: flex;
+    flex-direction: column;
+    height: 60pt;
+    justify-content: space-between;
+    color: floralwhite;
+
+}
+
+.edie .icons {
+    width: 70pt;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.footer-contact {
+    display: grid;
+    padding-right: 4rem;
+    grid-template-columns: auto;
+}
+
+.footer-contact p {
+    color: #828282;
+    font-size: 0.778rem;
+    /* align-self: center; */
+}
+
+.footer-contact div {
+    height: 37pt;
+    width: auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 2pt;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+}
+
+.footer-contact div input {
+    border: none;
+    outline: none;
+    width: auto;
+    font-size: 1.125rem;
+    background-color: transparent;
+    padding-left: 4pt;
+    padding-right: 10pt;
+}
+
+.footer-contact div button {
+    border: none;
+    font-size: 1.125rem;
+    background-color: #2d9cdb;
+    color: #f2f2f2;
+    border-radius: 12px;
+    transition: all 200ms cubic-bezier(1, .5, .12, 1);
+}
+
+.footer-contact div button:hover {
+    color: #2d9cdb;
+    background-color: #101010;
+    cursor: pointer;
+}
+
+.my_info {
+    color: #fafafa;
+    padding: 5pt;
+}
+
+.my_info a {
+    position: relative;
+    color: transparent;
+    background-image: linear-gradient(45deg, #f07, #43f);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.my_info a::before {
+    content: 'turyabiswas233';
+    position: absolute;
+    left: 0%;
+    top: -10%;
+    transition: all 300ms ease-in;
+
+}
+
+.my_info a:hover::before {
+    text-shadow: 0 0 5px #f07;
+}
+
+/* mobile-view */
+@media screen and (max-width:650px) {
+    .footer-top {
+        padding: 2rem;
+        grid-template-columns: 100%;
+        justify-content: left;
+    }
+
+    .footer-contact {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/* mobile-view */

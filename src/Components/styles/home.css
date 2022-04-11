@@ -1,0 +1,114 @@
+.intro {
+  width: 100%;
+}
+
+.intro-details {
+  padding: 10pt;
+}
+
+.intro-details .text {
+  margin-left: 25vw;
+}
+
+.intro-details h3 {
+  width: 50%;
+  font-size: 3rem;
+  margin-top: 10pt;
+  margin-bottom: 42pt;
+}
+
+.intro-details .text p {
+  width: 40%;
+  font-size: 1.125rem;
+}
+
+.intro-details .text:first-child p {
+  color: #2d9cdb;
+}
+
+.intro-details img {
+  border-radius: 18px;
+  width: 100%;
+}
+
+.intro-contact {
+  width: 50%;
+  margin-left: 25vw;
+  padding: 10pt;
+  display: grid;
+  grid-template-columns: auto;
+  font-size: 18px;
+}
+
+.intro-contact p {
+  color: #828282;
+  font-size: 0.778rem;
+  margin-bottom: 5pt;
+}
+
+.intro-contact div {
+  width: 60%;
+  height: 37pt;
+  display: grid;
+  padding: 2pt;
+  grid-template-columns: 80% 20%;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+
+.intro-contact div input {
+  border: none;
+  outline: none;
+  font-size: 1.125rem;
+  background-color: transparent;
+  padding: 0 4pt;
+}
+
+.intro-contact div button {
+  border: none;
+  background-color: #2d9cdb;
+  color: #f2f2f2;
+  font-size: 1.125rem;
+  border-radius: 12px;
+  transition: all 200ms cubic-bezier(1, .5, .12, 1);
+}
+
+.intro-contact div button:hover {
+  color: #2d9cdb;
+  background-color: #101010;
+  cursor: pointer;
+}
+
+
+/* mobile-view */
+@media screen and (max-width:650px) {
+
+  .intro-details .text,
+  .intro-contact {
+    margin: 0 auto;
+    width: 90%;
+    padding: 10pt;
+  }
+
+  .intro-contact div input {
+    font-size: 1rem;
+  }
+
+  .intro-details h3 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .intro-contact {
+    width: 80%;
+    margin-left: auto;
+    padding: 0pt;
+  }
+
+  .intro-details .text p,
+  .intro-contact div {
+    width: 100%;
+  }
+}
+
+/* mobile-view */
