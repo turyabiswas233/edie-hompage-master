@@ -69,4 +69,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [tb-edie-homepage](https://tb-edie-homepage.netlify.app)
-- GitHub [Turya Biswas](https://github.com/turyabiswas233})
+- GitHub [Turya Biswas](https://github.com/turyabiswas233)
